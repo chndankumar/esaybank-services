@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs "
+  contactDetails:
+    name: "Prince Kumar - Developer"
+    email: "prince@gmail.com"
+  onCallSupport:
+    - (91) 9582741582
+    - (91) 8340248609

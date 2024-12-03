@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank Accounts related default APIs "
+  contactDetails:
+    name: "Prince Kumar - Developer"
+    email: "prince@gmail.com"
+  onCallSupport:
+    - (91) 9582741582
+    - (91) 8340248609

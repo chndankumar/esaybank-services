@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to EazyBank Loans related local APIs "
+  contactDetails:
+    name: "Prince Kumar - Developer"
+    email: "prince@gmail.com"
+  onCallSupport:
+    - (91) 9582741582
+    - (91) 8340248609

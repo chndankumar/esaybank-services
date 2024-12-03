@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to EazyBank accounts related QA APIs "
+  contactDetails:
+    name: "Cyrano Marita - prod Lead"
+    email: "cyrano@eazybank.com"
+  onCallSupport:
+    - (785) 545-6565
+    - (853) 546-3467

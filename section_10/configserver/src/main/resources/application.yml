@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    # active: native
+    active: git
+  cloud:
+    config:
+      server:
+        # native:
+        # search-locations: "classpath:/config"
+        # search-locations: "file:///C:/Development/microservices/section6/config"
+        git:
+          uri: "https://github.com/chndankumar/esaybank-config.git"
+          default-label: main
+          timeout: 6
+          clone-on-start: true
+          force-pull: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+encrypt:
+  key: "chandan-secret-symmetric-key"
+
+server:
+  port: 8071
