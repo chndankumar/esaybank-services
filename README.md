@@ -48,3 +48,11 @@ This project is a microservices-based architecture for managing **Bank Cards**, 
  Service    Service    Service
    |         |           |
 [Database][Database][Database]
+
+Tools & Technologies
+Spring Boot: Core framework for microservice development.
+Spring Cloud: For configuration, service discovery, and API gateway.
+Docker: For containerization.
+Kubernetes: For orchestration.
+Resilience4j: For fault tolerance.
+PostgreSQL (or any RDBMS): Backend database for all services.
